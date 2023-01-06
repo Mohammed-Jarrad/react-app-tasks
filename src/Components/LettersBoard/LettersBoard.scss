@@ -1,0 +1,15 @@
+.letters-board {
+	flex: 1;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	// justify-content: end;
+	overflow-y: auto;
+
+	.no-letters-msg {
+		width: 100%;
+		height: 100%;
+		color: red;
+		text-align: center;
+	}
+}

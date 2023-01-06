@@ -1,0 +1,19 @@
+.letter {
+	// padding: 10px;
+	display: flex;
+	justify-content: start;
+	p {
+		background-color: #d5cea3;
+		color: #333;
+		padding: 10px;
+		border-radius: 10px;
+	}
+
+	&.right {
+		justify-content: end;
+		p {
+			background-color: #2b3467;
+			color: #fff;
+		}
+	}
+}

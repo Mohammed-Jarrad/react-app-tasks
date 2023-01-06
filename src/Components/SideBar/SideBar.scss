@@ -1,0 +1,31 @@
+.side-bar {
+	border-left: 1px solid #333;
+	padding: 10px;
+	button {
+		padding: 5px;
+		cursor: pointer;
+		border: none;
+		background-color: transparent;
+		font-size: 20px;
+	}
+	.wrapper {
+		width: 300px;
+		margin-top: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 40px;
+		&.hide {
+			display: none;
+		}
+		.info {
+			p {
+				font-weight: bold;
+				margin-bottom: 10px;
+			}
+		}
+		img {
+			text-align: center;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+.app {
+	background-color: #eafdfc;
+	display: flex;
+	flex-direction: column;
+
+	.top-section {
+		height: 10vh;
+	}
+	.main-content {
+		// flex: 10;
+		height: 80vh;
+		display: flex;
+	}
+	.type-letter {
+		height: 10vh;
+	}
+}

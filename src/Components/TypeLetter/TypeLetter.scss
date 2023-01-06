@@ -1,0 +1,22 @@
+.type-letter {
+	form {
+		height: 100%;
+		display: flex;
+		input {
+			flex: 1;
+			padding: 10px;
+			font-size: 22px;
+			&:focus {
+				outline: none;
+			}
+		}
+		button {
+			width: 100px;
+			background-color: #3a4f7a;
+			color: white;
+			font-size: 20px;
+			border: none;
+			cursor: pointer;
+		}
+	}
+}
